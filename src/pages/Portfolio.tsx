@@ -50,7 +50,7 @@ const Portfolio = () => {
     { name: 'Communication', percentage: 95, color: 'high' as const },
     { name: 'Microsoft 365', percentage: 90, color: 'high' as const },
     { name: 'Microsoft Intune', percentage: 85, color: 'high' as const },
-    { name: 'GitHub Enterprise Server', percentage: 85, color: 'high' as const },
+    { name: 'GitHub Enterprise Server', percentage: 55, color: 'high' as const },
     { name: 'VPN Configuration', percentage: 90, color: 'high' as const },
     { name: 'Site-to-Site VPN', percentage: 90, color: 'high' as const },
     { name: 'Point-to-Site VPN', percentage: 90, color: 'high' as const },
@@ -59,7 +59,7 @@ const Portfolio = () => {
     { name: 'Virtual Machine Migration', percentage: 90, color: 'high' as const },
     { name: 'Database Migration', percentage: 85, color: 'high' as const },
     { name: 'Hyper-V', percentage: 85, color: 'high' as const },
-    { name: 'VMware', percentage: 80, color: 'medium' as const },
+    { name: 'VMware', percentage: 60, color: 'medium' as const },
     { name: 'Nested Virtualization', percentage: 80, color: 'medium' as const },
     { name: 'Cloud Architecture', percentage: 95, color: 'high' as const },
     { name: 'Cloud Migration', percentage: 90, color: 'high' as const },
@@ -70,7 +70,7 @@ const Portfolio = () => {
     { name: 'Team Leadership', percentage: 90, color: 'high' as const },
     { name: 'Technical Support', percentage: 95, color: 'high' as const },
     { name: 'Hardware Installation', percentage: 90, color: 'high' as const },
-    { name: 'Software Configuration', percentage: 90, color: 'high' as const },
+    { name: 'Software Configuration', percentage: 50, color: 'high' as const },
     { name: 'OS Installation', percentage: 95, color: 'high' as const },
     { name: 'Hardware Troubleshooting', percentage: 95, color: 'high' as const },
     { name: 'IT Help Desk', percentage: 90, color: 'high' as const },
@@ -85,7 +85,7 @@ const Portfolio = () => {
     { name: 'Performance Optimization', percentage: 85, color: 'high' as const },
     { name: 'Disaster Recovery Planning', percentage: 85, color: 'high' as const },
     { name: 'Backup Solutions', percentage: 90, color: 'high' as const },
-    { name: 'Cloud Cost Optimization', percentage: 80, color: 'medium' as const },
+    { name: 'Cloud Cost Optimization', percentage: 70, color: 'medium' as const },
     { name: 'Vendor Management', percentage: 80, color: 'medium' as const },
     { name: 'Documentation', percentage: 85, color: 'high' as const },
   ];
@@ -251,8 +251,8 @@ const Portfolio = () => {
     Managing customer relationships to ensure satisfaction and success.
     Collaborating with internal IT teams to monitor and address security threats, managing full group IT operations.`,
     logo: (
-      <div className="w-[150px] h-[150px] rounded-lg flex items-center justify-center">
-        <img src="/badges/1-CKA.png" alt="NASSA Group Logo" className="w-full h-full object-cover rounded-lg" />
+      <div className="w-[200px] h-[200px] rounded-lg flex items-center justify-center">
+        <img src="c_logo/ADN.png" alt="ADN Logo" className="w-full h-full object-cover rounded-lg" />
       </div>
     )
   },
@@ -274,8 +274,8 @@ const Portfolio = () => {
     Executed Docker and Kubernetes processes, streamlining application deployment.
     Expertly implemented filesystem on Linux partitions, optimizing data organization.`,
       logo: (
-        <div className="w-[150px] h-[150px] rounded-lg flex items-center justify-center">
-          <img src="/badges/1-CKA.png" alt="NASSA Group Logo" className="w-full h-full object-cover rounded-lg" />
+        <div className="w-[200px] h-[200px] rounded-lg flex items-center justify-center">
+          <img src="/c_logo/CPL.png" alt="CPL Logo" className="w-full h-full object-cover rounded-lg" />
         </div>
       )
     },
@@ -291,11 +291,22 @@ const Portfolio = () => {
       Ensured the resolution of all internal IT help desk requests, maintaining a high level of user satisfaction.
       Played a key role in the IT Department, actively contributing to the overall efficiency of the team.
       Worked collaboratively to maintain a well-functioning IT environment, supporting daily operations.`,
+      // logo: (
+      //   <div className="w-[200px] h-[200px] rounded-lg flex items-center justify-center">
+      //     <img src="/c_logo/NG.png" alt="NASSA Group Logo" className="w-full h-full object-cover rounded-lg " />
+      //   </div>
+      // )
       logo: (
-        <div className="w-[150px] h-[150px] rounded-lg flex items-center justify-center">
-          <img src="/badges/1-CKA.png" alt="NASSA Group Logo" className="w-full h-full object-cover rounded-lg" />
-        </div>
-      )
+  <div className="w-[200px] h-[200px] rounded-lg flex items-start justify-center bg-white p-2">
+    <img
+      src="/c_logo/NG.png"
+      alt="NASSA Group Logo"
+      className="max-w-full max-h-full object-contain rounded-lg"
+    />
+  </div>
+)
+
+
     },
 
     {
@@ -311,9 +322,9 @@ const Portfolio = () => {
       Actively engaged with the IT Teams to enhance overall efficiency and technological advancements.
       Collaborated with Company Owner Team providing valuable insights and support for strategic initiatives.`,
       logo: (
-        <div className="w-[150px] h-[150px] rounded-lg flex items-center justify-center">
+        <div className="w-[200px] h-[200px] rounded-lg flex items-center justify-center">
           <img
-            src="/badges/1-CKA.png"
+            src="/c_logo/MFG.png"
             alt="Micro Fibre Group Logo"
             className="w-full h-full object-cover rounded-lg"
           />
